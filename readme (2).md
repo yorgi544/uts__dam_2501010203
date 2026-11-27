@@ -6,11 +6,11 @@ Proyek ini bertujuan untuk melakukan akuisisi, pembersihan, dan integrasi data S
 
 | Keterangan | Informasi |
 | :--- | :--- |
-| **Nama Lengkap** | [Herkulano Yorgi Novriandri Simuk] |
-| **NIM** | [2601010203] |
-| **Program Studi** | [Informatika] |
+| **Nama Lengkap** | Herkulano Yorgi Novriandri Simuk |
+| **NIM** | 2501010203 |
+| **Program Studi** | Informatika |
 | **Mata Kuliah** | Data Acquisition & Management (DAM) |
-| **Ankatan** | [2025] |
+| **Angkatan** | 2025 |
 
 ## 📂 Struktur Direktori Proyek
 ```
