@@ -1,4 +1,7 @@
 # Proyek Akuisisi & Manajemen Data (UTS DAM)
+#Nama   :Herkulano Yorgi Novriandri Simuk
+#Nim    :2501010203
+#Kelas  :F
 
 Proyek ini bertujuan untuk melakukan akuisisi, pembersihan, dan integrasi data Statistik Pariwisata Bali dengan data historis cuaca harian Bali tahun 2025.
 
