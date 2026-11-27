@@ -1,0 +1,30 @@
+{
+    "judul_proyek": "Akuisisi Data Statistik Pariwisata Bali 2025",
+    "sumber_data_pariwisata": {
+        "instansi": "Dinas Pariwisata Provinsi Bali",
+        "url_halaman_resmi": "https://disparda.baliprov.go.id/buku-statistik-pariwisata-bali-tahun-2025",
+        "url_langsung_berkas": "https://disparda.baliprov.go.id/wp-content/uploads/2023/12/Table-17-Final-7.xlsx"
+    },
+    "sumber_data_cuaca": {
+        "layanan": "Open-Meteo Historical Weather API",
+        "url_platform": "https://open-meteo.com/",
+        "url_api_endpoint": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.65&longitude=115.2167&start_date=2025-01-01&end_date=2025-01-10&hourly=temperature_2m,relative_humidity_2m,rain&timezone=Asia%2FSingapore"
+    },
+    "metode_akuisisi": {
+        "pariwisata": "Manual Download / Requests scraping",
+        "cuaca": "Rest API (Requests)"
+    },
+    "format_data_asli": {
+        "pariwisata": "Excel (.xlsx)",
+        "cuaca": "JSON"
+    },
+    "format_data_hasil_cleaning": "CSV",
+    "tanggal_akuisisi": "2026-11-27 06:47:30",
+    "proses": [
+        "Mengunduh berkas fisik pariwisata Table-17-Final-7.xlsx dari situs resmi Disparda Bali.",
+        "Melakukan pembersihan data pariwisata (menghilangkan baris kosong dan baris duplikat).",
+        "Mengakses API Open-Meteo untuk mengambil data historis cuaca Bali awal 2025.",
+        "Melakukan agregasi cuaca harian (rata-rata suhu, kelembaban, dan total curah hujan).",
+        "Mengintegrasikan data pariwisata dan cuaca berdasarkan tanggal penyelarasan."
+    ]
+}
